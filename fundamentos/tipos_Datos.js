@@ -35,6 +35,17 @@ console.log({ superPoder });
 console.log(typeof { soNull });
 
 
+/* simbolos */
+
+let symbol1 = Symbol("a");
+let symbol2 = Symbol("a");
+
+console.log(typeof symbol1);
+console.log(typeof symbol2);
+
+console.log( symbol1 === symbol2);
+
+
 console.log("%c FIN tipos de datos" , "color:red;font-weight:bold;");
 
 
